@@ -1,3 +1,5 @@
+const requester = require('request');
+const app  = require('express');
 const TeleBot = require('telebot');
 const bot = new TeleBot('592591100:AAHyPOVC6wos-utH7uZWc8Tk3KFJDEDD-f8');
 
