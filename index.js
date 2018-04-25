@@ -1,6 +1,6 @@
 const requester = require('request');
 const app  = require('express');
-import TeleBot from 'telebot';
+// import TeleBot from 'telebot';
 const bot = new TeleBot('592591100:AAHyPOVC6wos-utH7uZWc8Tk3KFJDEDD-f8');
 
 bot.on(['/start', '/hello'], (msg) => msg.reply.text('Welcome to Save Act, Lets get started: Type you ragione sociale!'));
